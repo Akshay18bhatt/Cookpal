@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookpal</title>
+    <link rel="shortcut icon" href="./asset/Cookpal 1.svg">
+    <link rel="stylesheet" href="stylee.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div><img src="./asset/Cookpal 1.svg" alt="Cookpal_icon"></div>
+        <div id="linkss">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+            <img src="./asset/Profile.svg" alt="customer_id">
+        </div>
+
+    </nav>
+    <div class="wrapper_container">
+        <div id="hero-section">
+            <div id="hero-text">
+                <p>Trending now</p>
+                <h1>Mike's famous salad with cheese</h1>
+                <span>By John Mike</span>
+            </div>
+        </div>
+
+        <div id="search_recipe">
+            <h3>Search For Recipes</h3>
+            <div>
+                <form action="" id="search_input">
+                    <input type="text" name="search" placeholder="Search for recipes...">
+                    <button class="material-icons">search</button>
+                </form>
+            </div>
+        </div>
+
+        <div id="display_buttons"> 
+            <button id="btn-1">
+                <p>All Recipes</p>
+                <span class="material-icons">chevron_right</span>
+            </button>
+            <button id="btn-2">
+                <p>Veg Recipes Only</p>
+                <span class="material-icons">chevron_right</span>
+            </button>
+            <button id="btn-3">
+                <p>Non Veg Recipes</p>
+                <span class="material-icons">chevron_right</span>
+            </button>
+        </div>
+        <div class="menu_and_rating_Container">
+            <div id="filter_rating_col-1">
+                <h3>Filters</h3>  
+                <div id="all_Rating_div">
+                    <p>Rating</p>
+                    <div id="rating-inputs">
+                        <div>
+                            <input type="radio"  id="four" name="4rated"><label for="four">4 and Above</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="below_four" name="4rated"><label for="below_four">Below 4</label>
+                        </div>
+                                
+                    </div>
+                </div>
+            </div>
+            <div id="all-recipes"></div>
+        </div>
+        
+
+        <footer>
+            <div id="footer_main_container">
+                <div id="footer_row1">
+                    <div id="footer_row1_col1">
+                        <div>
+                            <img src="./asset/Cookpal 1.svg" alt="Cookpal_icon">
+                        </div>
+                        <p>Cookpal is a recipe website with a wide variety of delicious recipes, easy-to-use search function. Join our community and let's cook together!</p>
+                    </div>
+                    <div id="footer_row1_col2">
+                        <div id="table_div">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Company</th>
+                                        <th>Resources</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Home</td>
+                                        <td>Blog</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Explore</td>
+                                        <td>Use Cases</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Team</td>
+                                        <td>Testimonials</td>
+                                    </tr>
+                                    <tr>
+                                        <td>About Us</td>
+                                        <td>Insights</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Activity</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="footer_row1_col3">
+                        <div>
+                            <img src="./asset/Cookpal 1.svg" alt="Cookpal_icon">
+                        </div>
+                        <p>Ut risus mattis interdum faucibus facilisi. Facilisi purus accumsan aliquam.</p>
+                        <div id="footer_inputs">
+                            <input type="email" name="email" placeholder="Your Email">
+                            <button>Subscribe</button>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div id="footer_row2">
+                    <div id="icons-div">
+                        <div class="icon "><i class="fa-brands fa-instagram"></i></div>
+                        <div class="icon"><i class="fa-brands fa-twitter"></i></div>
+                        <div class="icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                        <div class="icon"><i class="fa-brands fa-facebook-f"></i></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+
+    <script src="./cookpal.js"></script>
+    <script src="./cookpalFunctionality.js"></script>
+</body>
+</html>
+ <!-- <div>
+    <img src="" alt="">
+    <span>veg</span>
+    <div>
+        <h5>Russian Salad</h5>
+        <span>(icon) 4.5</span>
+
+    </div>
+    <div>
+        <p>40 min</p>
+        <button>heart</button>
+        <span>comment</span>
+    </div>
+</div>  -->
