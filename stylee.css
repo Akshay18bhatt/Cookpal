@@ -54,6 +54,11 @@ nav{
 #linkss>ul a{
     text-decoration: none;
 }
+#linkss>ul a:hover{
+    text-decoration: underline;
+    font-size: 17px;
+}
+
 #hero-section{
     width:100%;
     height: 360px;
@@ -125,6 +130,10 @@ nav{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     border: none;
+    cursor: pointer;
+}
+#search_input button:active{
+    transform: scale(1.1,1.1);
 }
 
 #display_buttons{
@@ -144,24 +153,41 @@ nav{
     padding: 8px 25px;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
+
 #btn-1{
     background-color: #eaaa00;
     color:#fff;   
 }
+#btn-1:active{
+    box-shadow: 0px 0px 5px #eaaa00;
+    transform: scale(1.1,1.1);
+    opacity: 0.2;
+}
 #btn-2{
     background-color: #c4d600;
     color:#fff;   
+}
+#btn-2:active{
+    box-shadow: 0px 0px 5px #c4d600;
+    transform: scale(1.1,1.1);
+    opacity: 0.2;
 }
 #btn-3{
     background-color: #dc582a;
     color:#fff;   
    
 }
-
+#btn-3:active{
+    box-shadow: 0px 0px 5px #dc582a;
+    transform: scale(1.1,1.1);
+    opacity: 0.2;
+}
 .menu_and_rating_Container{
     display: grid;
-    grid-template-columns: 2fr 5fr;
+    grid-template-columns: 0.5fr 6fr;
     margin-top: 50px;
     /* background-color: crimson; */
 }
@@ -172,6 +198,7 @@ nav{
     height: 210px;
     box-sizing: border-box;
     /* padding: 20px;/ */
+    /* border: 1px solid gray; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -197,15 +224,25 @@ nav{
     font-size: 14px;
     color:#253D4E;
 }
+#rating-inputs label{
+    cursor: pointer;
+}
+#rating-inputs label:active{
+    transform: scale(1.2,1.2);
+}
 #rating-inputs div{
     display: flex;
     gap:10px;
     align-items: center;
+    
 }
 #rating-inputs input{
     width: 18px;
     height: 18px;
-
+    cursor: pointer;
+}
+#rating-inputs input:active{
+    transform: scale(1.2,1.2);
 }
 
 
@@ -214,22 +251,31 @@ nav{
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    gap:40px 25px;
+    gap:40px 30px;
 }
 
 
 #cardd{
-    width:305px;
+    width:245px;
     height: 315px;
     box-sizing: border-box;
     padding: 10px;
-    box-shadow: 0px 0px 3px gray;
+    box-shadow: 0px 0px 10px gray;
+    border: 1px solid #000;
     /* background-color: antiquewhite; */
     border-radius: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+#cardd:hover{
+    transform: scale(1.2,1.2);
+    cursor: pointer;
+    /* z-index: 1000; */
+    
 }
 .img_div{
-    width:289px;
-    height: 200px;
+    width:220px;
+    height: 180px;
     box-sizing: border-box;
     overflow: hidden;
     border-radius: 16px;
@@ -246,7 +292,7 @@ nav{
     color: var(--span_color);
 }
 .veg_non_span, .name_rating_div, .time_like_div{
-    width:265px;
+    width:220px;
 }
 #cardd h1{
     font-size: 20px;
@@ -365,7 +411,12 @@ td{
     line-height: 40px;
     
 }
-
+td:hover{
+    font-size: 17px;
+}
+td:active{
+    transform: scale(0,1.2);
+}
 #footer_row1_col3{
     width: 40%;
     /* background-color: pink; */
@@ -395,7 +446,12 @@ td{
     border: none;
     border-radius: 5px;
 }
-
+#footer_inputs button:hover{
+    transform: scale(1.1,1.1);
+}
+#footer_inputs button:active{
+    transform: scale(1.3,1.3);
+}
 
 #footer_row2{
     width: 100%;
@@ -422,4 +478,12 @@ td{
     justify-content: center;
     align-items: center;
     background-color: #2a3342;
+    transition: all0.5s ease-in-out;
+}
+#icons-div div:hover{
+    transform: scale(1.1,1.1);
+}
+#icons-div div:active{
+    opacity: 0.5;
+    transform: scale(1.3,1.3);
 }
