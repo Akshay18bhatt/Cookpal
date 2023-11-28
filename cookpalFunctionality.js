@@ -16,14 +16,13 @@ let form= document.getElementById("search_input");
 let search= document.querySelector("#search_input>input");
 console.log(search);
 
-search.addEventListener("input",()=>{
+search.addEventListener("input",(event)=>{
     // console.log("change");
-
     recipe_container.innerHTML="";
     let search_Input_text = search.value.toLowerCase();
     let filtered_recipe = menu_list.filter((recipe)=>{
         return recipe.name.toLowerCase().includes(search_Input_text);
-    });
+    }); 
     DISPLAY_RECIPE(filtered_recipe);
 
     // console.log(search_Input_text);

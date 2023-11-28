@@ -201,6 +201,7 @@ nav{
     /* border: 1px solid gray; */
     display: flex;
     flex-direction: column;
+    margin-right: 25px;
     justify-content: space-between;
 
 }

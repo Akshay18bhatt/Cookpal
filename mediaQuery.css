@@ -1,0 +1,143 @@
+@media screen and (max-width:576px) {
+    
+    body{
+        background-color: yellow;
+    }
+    .wrapper_container{
+        width:96%;
+        
+    }
+
+
+    /*                  MQ for Nav Bar---            */
+    #linkss ,#nav_icon_normalScreen{
+        display: none;  
+    }
+    #mediaQuery_nav{
+        display: flex;
+        align-items: center;
+        gap:20px;
+
+    }
+    #mediaQuery_nav button{
+        width: 30px;
+        height: 30px;
+        font-size: 25px;
+        border: none;
+        background-color: transparent;
+    }
+
+
+
+    /*                  MQ for hero section---           */
+    #hero-section{
+
+        height: 200px;
+        margin-top: 5px;
+        background-size: cover;
+        background-clip:content-box;
+        border-radius: 15px;
+    }
+    
+    #hero-text{
+        width: 70%;
+        margin-left: 10px;
+        margin-top: 10px;
+        
+    }
+    #hero-text p{
+        font-size: 16px;
+    }
+    #hero-text h1{
+        font-size: 24px;
+    }
+    #hero-text span{
+        font-size: 16px;
+    }
+
+
+    /*                  MQ for Search Bar---             */
+
+    #search_recipe{
+        margin-top: 20px;
+        gap:10px;
+    }
+    #search_recipe h3{
+        font-size: 20px;
+    }
+    #search_input input{
+        height: 28px;
+        padding: 6px 10px;
+    }
+
+
+    /*              MQ for Buttons---            */
+    #display_buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    #display_buttons button{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 60px;
+        padding: 6px 18px;
+        font-size: 15px;
+    }
+
+
+    /*              MQ for menu container---         */
+
+
+    .menu_and_rating_Container{
+        display: flex;
+        flex-direction: column;
+    }
+    #filter_rating_col-1{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: top;
+        background-color: aqua;
+        margin-bottom: 20px;
+    }
+    #filter_rating_col-1 h3{
+        display: none;
+    }
+    #all_Rating_div{
+        margin-bottom: 0px;
+    }
+    #all_Rating_div p{
+        font-weight: 600;
+    }
+    #rating-inputs{
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    /*                 MQ for cards--                 */
+
+    #all-recipes{
+        gap:20px 10px;
+    }
+    #cardd{
+        width: 170px;
+        height: 220px;
+    }
+    .img_div{
+        width: 140px;
+        height: 130px;
+    }
+    .veg_non_span, .name_rating_div, .time_like_div{
+        width:140px;
+    }
+
+}
+@media screen and (min-width:577px) {
+    
+    #mediaQuery_nav{
+        display: none;
+    }
+}
