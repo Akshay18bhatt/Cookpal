@@ -1,7 +1,7 @@
 @media screen and (max-width:576px) {
     
     body{
-        background-color: yellow;
+        /* background-color: yellow; */
     }
     .wrapper_container{
         width:96%;
@@ -99,7 +99,7 @@
         display: flex;
         /* flex-direction: column; */
         justify-content: top;
-        background-color: aqua;
+        /* background-color: aqua; */
         margin-bottom: 20px;
     }
     #filter_rating_col-1 h3{
@@ -133,6 +133,71 @@
     .veg_non_span, .name_rating_div, .time_like_div{
         width:140px;
     }
+    #cardd h1{
+        font-size: 12px;
+    }
+    .time_like_div{
+        font-size: 12px;
+        margin-top:1px;
+    }
+    #cardd:hover{
+        transform: scale(1.1,1.1);
+    }
+
+    #footer_main_container{
+        margin-top: 50px;
+    }
+    #footer_row1{
+        display: flex;
+        flex-direction: column;
+    }
+    #footer_row1_col1{
+        width: 90%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #footer_row1_col2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    th,td{
+        text-align: center;
+    }
+
+    #footer_row1_col3{
+        width:90%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        text-align: center;
+    }
+    #footer_inputs{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #footer_inputs button{
+        width: 40%;
+    }
+    #footer_inputs input{
+        width: 100%;
+    }
+
+    #icons-div{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    
 
 }
 @media screen and (min-width:577px) {
