@@ -172,6 +172,9 @@ let below_four_food= menu_list.filter(food_rating=>{
 
 let recipe_container= document.getElementById("all-recipes");
 
+
+// No filter -
+DISPLAY_RECIPE(menu_list);
 function DISPLAY_RECIPE(display_menu_list){
 
 
