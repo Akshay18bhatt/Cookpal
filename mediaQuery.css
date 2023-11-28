@@ -121,6 +121,7 @@
 
     #all-recipes{
         gap:20px 8px;
+        justify-content: space-evenly;
     }
     #cardd{
         width: 140px;
