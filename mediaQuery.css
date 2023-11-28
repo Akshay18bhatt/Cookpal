@@ -120,18 +120,19 @@
     /*                 MQ for cards--                 */
 
     #all-recipes{
-        gap:20px 10px;
+        gap:20px 8px;
     }
     #cardd{
-        width: 170px;
+        width: 140px;
         height: 200px;
+        margin-left: 3px;
     }
     .img_div{
-        width: 150px;
-        height: 110px;
+        width: 120px;
+        height: 100px;
     }
     .veg_non_span, .name_rating_div, .time_like_div{
-        width:150px;
+        width:120px;
     }
     #cardd h1{
         font-size: 13px;
